@@ -9,8 +9,9 @@ body {
     Meiryo,
     sans-serif;
 }
+
 img {
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -56,4 +57,39 @@ header {
   background-image: url(/img/fv\ 1.jpg);
   background-size: cover;
   background-position: center;
+}
+/* Feature */
+.feature-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px 100px;
+}
+.heading-title {
+  font-size: 32px;
+  color: #555555;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 47px;
+_}
+
+.feature-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* img画像の大きさ */
+.feature-img-top {
+  width: 480px;
+  height: 329px;
+}
+
+.feature-text {
+  margin-left: 60px;
+}
+.feature-text-title {
+  color: #555555;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
