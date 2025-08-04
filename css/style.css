@@ -20,6 +20,12 @@ header {
   height: 80px;
 }
 
+footer {
+  background-color: #EFA358;
+  padding: 22px 0 19px;
+  text-align: center;
+}
+
 .header-inner {
   max-width: 1000px;
   height: 100%;
@@ -65,28 +71,29 @@ header {
   margin-right: auto;
   padding: 40px 20px 100px;
 }
+
 .heading-title {
   font-size: 32px;
   color: #555555;
   font-weight: bold;
   text-align: center;
   margin-bottom: 47px;
-_}
+}
 
 .feature-box {
   display: flex;
   justify-content: space-between;
 }
 
-/* img画像の大きさ */
-.feature-img-top {
-  width: 480px;
+.feature-img figure {
+  width: 448px;
   height: 329px;
 }
 
 .feature-text {
   margin-left: 60px;
 }
+
 .feature-text-title {
   color: #555555;
   font-size: 32px;
@@ -96,18 +103,31 @@ _}
 
 .feature-text-1 {
   font-size: 16px;
-  color: #555555
+  color: #555555;
   line-height: 1.5;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .cta-btn {
   display: inline-block;
   padding: 15px 57px;
-color: #fff;
-font-size: 16px;
-font-weight: bolder;
-border-radius: 10px;
-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-background-color: #EFA358;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #EFA358;
+}
+
+/* fotter */
+.fotter-logo {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #fff;
 }
